@@ -10,14 +10,12 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDyPxIwtJ1tTPLYBFH9d05S2G_Uce_DyyM",
-  apiKey: "AIzaSyAra3LiEUhFqs_v2iWOz5jFaGmT9qESX-U",
-  authDomain: "tbtoken-20023.firebaseapp.com",
-  databaseURL: "https://tbtoken-20023-default-rtdb.firebaseio.com",
-  projectId: "tbtoken-20023",
-  storageBucket: "tbtoken-20023.appspot.com",
-  messagingSenderId: "226306476570",
-  appId: "1:226306476570:web:b1960c006b63f362159fa3",
-  measurementId: "G-ZT8J3KS6VB",
+  authDomain: "scientific-crow-365013.firebaseapp.com",
+  projectId: "scientific-crow-365013",
+  storageBucket: "scientific-crow-365013.appspot.com",
+  messagingSenderId: "551300805004",
+  appId: "1:551300805004:web:18a13d68d9b9b4672a66a9",
+  measurementId: "G-2BFT6GC8P8",
 };
 
 // Initialize Firebase
@@ -35,7 +33,7 @@ const db = getFirestore(app);
 
 export const saveEmail = async (data) => {
     try {
-        const docRef = await addDoc(collection(db, "TBT-DB"), data);
+        const docRef = await addDoc(collection(db, "Wiatlist"), data);
         console.log("Successful")
         // toast.success("Submitted Successfully");
         // setTimeout(() => {
