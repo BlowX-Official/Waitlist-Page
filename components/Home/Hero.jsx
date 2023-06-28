@@ -119,7 +119,7 @@ const Hero = () => {
             </h1>
             <p className="text-sm md:text-base text-[#ababab] text-center mt-2 mb-[30px]">
               Kindly fill in the form and join our community to follow the
-              development progress. You will be notified when TBT launches.
+              development progress. You will be notified when TBT launch.
             </p>
             <div className="flex flex-col">
               <label htmlFor="" className="text-[#ababab] text-sm mb-[6px]">
