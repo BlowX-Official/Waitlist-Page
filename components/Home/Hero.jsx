@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import Navbar from './Navbar'
 import faces from "../../assets/svgs/faces.svg"
 import Image from 'next/image'
@@ -17,6 +17,7 @@ import tele from "../../assets/svgs/gold-tele.svg";
 import inst from "../../assets/svgs/inst.svg";
 const url = "https://chat-earn.herokuapp.com/api/subscribe";
 import Link from 'next/link';
+import { SendEmail } from '../../pages/api/routes';
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -33,6 +34,10 @@ const Hero = () => {
   //   saveEmail(email);
   // }
 
+  useEffect(() => {
+    SendEmail({email:"starlordflash@gmail.com"});
+  }, [])
+  
   const handleSubmit = async () => {
     setLoading(true);
     const data = {
@@ -151,6 +156,7 @@ const Hero = () => {
               <label htmlFor="" className="text-[#ababab] text-sm mb-[6px]">
                 Email
               </label>
+              <span className="text-[#ababab]">*</span>
               <input
                 type="email"
                 name="email"
