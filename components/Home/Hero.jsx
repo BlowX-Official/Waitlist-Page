@@ -34,9 +34,7 @@ const Hero = () => {
   //   saveEmail(email);
   // }
 
-  useEffect(() => {
-    SendEmail({email:"starlordflash@gmail.com"});
-  }, [])
+ 
   
   const handleSubmit = async () => {
     setLoading(true);
