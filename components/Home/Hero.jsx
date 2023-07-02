@@ -339,7 +339,7 @@ const Hero = () => {
             </Link>
             <div className="flex justify-center items-center space-x-[34px] mt-6 mb-6">
               <Link
-                href="https://twitter.com/thebilliotoken?s=21&t=WsOunCWsNhdoyCG_aroRbQ"
+                href="https://twitter.com/tbtofficial_eth?s=21&t=WsOunCWsNhdoyCG_aroRbQ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
