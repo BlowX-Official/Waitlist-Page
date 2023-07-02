@@ -323,7 +323,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className={`btn-1 w-full mt-[30px] mx-auto`}
             >
-              Follow on Twiiter
+              Follow on Twitter
             </Link>
             <Link
               href="https://t.me/thebillionairestoken"
