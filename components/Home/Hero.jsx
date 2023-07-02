@@ -153,8 +153,8 @@ const Hero = () => {
             <div className="flex flex-col mt-5">
               <label htmlFor="" className="text-[#ababab] text-sm mb-[6px]">
                 Email
+                <span className="text-[#ababab] ml-1">*</span>
               </label>
-              <span className="text-[#ababab]">*</span>
               <input
                 type="email"
                 name="email"
@@ -170,6 +170,7 @@ const Hero = () => {
             <div className="flex flex-col mt-5">
               <label htmlFor="" className="text-[#ababab] text-sm mb-[6px]">
                 Twitter Handle
+                <span className="text-[#ababab] ml-1">*</span>
               </label>
               <input
                 type="text"
@@ -186,6 +187,7 @@ const Hero = () => {
             <div className="flex flex-col mt-5">
               <label htmlFor="" className="text-[#ababab] text-sm mb-[6px]">
                 Telegram Handle
+                <span className="text-[#ababab] ml-1">*</span>
               </label>
               <input
                 type="text"
