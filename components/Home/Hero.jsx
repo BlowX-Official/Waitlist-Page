@@ -262,14 +262,14 @@ const Hero = () => {
             </h1>
             <p className="text-sm md:text-base text-[#ababab] text-center mt-2 mb-[30px]">
               You have now successfully joined the waitlist, you will be
-              notified when TBT launches. <br /> FORTUNE favors the BRAVE!!!
+              notified when TBT launch. <br /> FORTUNE favors the BRAVE!!!
             </p>
 
             {/* end  */}
             {/* start */}
 
             <Link
-              href="https://twitter.com/thebilliotoken?s=21&t=WsOunCWsNhdoyCG_aroRbQ"
+              href="https://twitter.com/tbtofficial_eth?s=21&t=WsOunCWsNhdoyCG_aroRbQ"
               target="_blank"
               rel="noopener noreferrer"
               className={`btn-1 w-full mt-[30px] mx-auto`}
