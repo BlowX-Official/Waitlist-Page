@@ -42,8 +42,8 @@ const Hero = () => {
       email: email,
       telegram: telegram,
       twitter: twitter,
-      wallet: selected.name,
-      "wallet-address": walletAddress,
+      wallet: selected.name ? selected.name : "No wallet",
+      "wallet-address": walletAddress?walletAddress : "no wallet address",
     };
     // saveEmail(
     //  data
