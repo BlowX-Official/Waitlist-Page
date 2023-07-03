@@ -29,7 +29,7 @@ const Hero = () => {
   const [openForm, setOpenForm] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
   const [selected, setSelected] = useState({});
-
+  const [openCookie, setOpenCookie] = useState(true);
   // coundown
   
    const [countdown, setCountdown] = useState({
@@ -366,6 +366,48 @@ const Hero = () => {
               >
                 <Image src={inst} alt="twitter" />
               </Link>
+            </div>
+          </div>
+        </div>
+      </ReuseAbleModal>
+      {/* END OF FIRST ############################################################################################3 */}
+      <ReuseAbleModal open={openCookie} setOpen={setOpenCookie}>
+        <div className="w-full flex flex-col items-center">
+          <Image
+            src={logo}
+            className="mx-auto"
+            width={logo.width}
+            height={logo.height}
+          />
+          <div className="flex flex-col mt-[30px]">
+            <h1 className="detacher text-center md:text-2xl text-[#FECF81] ">
+              Cookies Policy
+            </h1>
+            <p className="text-sm md:text-base text-[#ababab] text-center mt-2 mb-[30px]">
+              We use cookies and other technologies to collect and process your
+              data for various purposes, such as personalizing your experience,
+              delivering relevant ads, and improving our services. By clicking
+              “Accept”, you agree to our use of cookies and data processing as
+              described in our Privacy Policy. You can change your preferences
+              or opt out at any time by clicking “Reject” or visiting our
+              Cookie Settings page.
+            </p>
+
+            {/* end  */}
+            {/* start */}
+            <div className="w-full flex space-x-4">
+              <button
+                className="btn-1 btn-primary"
+                onClick={() => setOpenCookie(false)}
+              >
+                Reject
+              </button>
+              <button
+                className="btn btn-primary"
+                onClick={() => setOpenCookie(false)}
+              >
+                Accept
+              </button>
             </div>
           </div>
         </div>
