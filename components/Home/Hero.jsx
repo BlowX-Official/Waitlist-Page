@@ -269,7 +269,7 @@ const Hero = () => {
                 <Image src={twiiter} alt="twitter" />
               </Link>
               <Link
-                href="https://t.me/thebillionairestoken"
+                href="https://t.me/TheBillionaireToken"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -346,7 +346,7 @@ const Hero = () => {
                 <Image src={twiiter} alt="twitter" />
               </Link>
               <Link
-                href="https://t.me/thebillionairestoken"
+                href="https://t.me/TheBillionaireToken"
                 target="_blank"
                 rel="noopener noreferrer"
               >
