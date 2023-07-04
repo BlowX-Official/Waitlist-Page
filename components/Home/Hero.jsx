@@ -384,13 +384,11 @@ const Hero = () => {
               Cookies Policy
             </h1>
             <p className="text-sm md:text-base text-[#ababab] text-center mt-2 mb-[30px]">
-              We use cookies and other technologies to collect and process your
-              data for various purposes, such as personalizing your experience,
-              delivering relevant ads, and improving our services. By clicking
-              “Accept”, you agree to our use of cookies and data processing as
-              described in our Privacy Policy. You can change your preferences
-              or opt out at any time by clicking “Reject” or visiting our
-              Cookie Settings page.
+              We use cookies on our website to give you the most relevant
+              experience by remembering your preferences and repeat visits. By
+              clicking “Accept All”, you consent to the use of ALL the cookies.
+              However, you may visit "Cookie Settings" to provide a
+              controlled consent.
             </p>
 
             {/* end  */}
@@ -406,7 +404,7 @@ const Hero = () => {
                 className="btn btn-primary"
                 onClick={() => setOpenCookie(false)}
               >
-                Accept
+                Accept All
               </button>
             </div>
           </div>
